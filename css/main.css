@@ -2619,3 +2619,16 @@ footer .copyright span:last-child::after {
 .no-maxwidh{
 	max-width: none;
 }
+
+.container{
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+	max-width: 1000px;
+}
+.card{
+
+}

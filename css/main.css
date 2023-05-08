@@ -2626,19 +2626,21 @@ footer .copyright span:last-child::after {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
-	align-items: center;
+	align-items: stretch;
 	gap: 1rem;
 	max-width: 1000px;
 }
-.image{
- 
- max-width: 450px;
- 
+.card{
+	background-color: #3F0D39;
+    padding: 3rem;
+	flex-basis: calc(33.33% - 20px);
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0,0,0,.3);
 }
 
 img{
 	max-width: 100%;
-	height: auto;
-	object-fit: fill;
-	min-height: 200px;
+	height: 200px;
+	object-fit: cover;
+	
 }
